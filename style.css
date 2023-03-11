@@ -1,0 +1,65 @@
+/* universal styling*/
+strong {
+    font-size: 30px;
+    color: black;
+}
+
+span {
+    color: aqua;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+h1 {
+    font-size: 60px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* universal styling end here*/
+/* navmenu*/
+#nav-menu {
+    background-color: rgba(13,202,240,255)
+    !important;
+    color: black !important;
+}
+
+/* guarentte card section*/
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    height: 100px !important;
+    width: 100px;
+    position: relative;
+    left: 32%;
+}
+
+/* guarentee cardsection end*/
+/* plans card*/
+#first-plan-card {
+    border: 5px solid purple !important;
+    height: 400px;
+}
+
+#second-plan-card {
+    border: 5px solid purple !important;
+    height: 400px;
+}
+
+#third-plan-card {
+    border: 5px solid purple !important;
+    height: 400px;
+}
+
+/* plans card end here*/
+/* footer*/
+#footer-list {
+    list-style-type: none;
+
+}
