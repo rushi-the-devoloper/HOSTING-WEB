@@ -17,16 +17,18 @@ h1 {
     font-size: 60px !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
 /* universal styling end here*/
 /* navmenu*/
 #nav-menu {
-    background-color: rgba(13,202,240,255)
-    !important;
-    color: black !important;
+    background-color: rgba(13,202,240,255) !important; 
+    
 }
-
+.nav-link:hover{
+color: orangered !important;
+}
+#slider{
+    background-color: rgb(0,0,0) !important;
+}
 /* guarentte card section*/
 
 .card {
@@ -44,9 +46,10 @@ h1 {
 /* plans card*/
 #first-plan-card {
     border: 5px solid purple !important;
-    height: 400px;
+    height: 400px; 
+    transition: 2s;   
+       
 }
-
 #second-plan-card {
     border: 5px solid purple !important;
     height: 400px;
@@ -61,5 +64,38 @@ h1 {
 /* footer*/
 #footer-list {
     list-style-type: none;
+}
 
+/* guarentee card style */
+.card-image{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    transform: translateX(17%);
+    transition: 1.5s ease;
+    
+}
+.card-image img{
+transform: translate(60%,60%);
+}
+.card-image:hover{
+  border: 5px solid purple;
+}
+
+h1 {
+    animation-name: positioning;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes positioning{
+    0%{
+        position: relative;
+        left: -800px;
+    }
+    100%{
+        position: relative;
+        left: 0%;
+    }
 }
